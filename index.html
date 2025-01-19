@@ -3,72 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <header class="row">
             <div class="col-lg-2 col-xl-2 col-xxl-2">
-                <img src="./img/logo.svg" alt="#">
+                <img src="./img/logo.svg" alt="#" style="width: 183px;height: 80px;">
             </div>
             <div class="col-lg-2 col-xl-2 col-xxl-2">
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                <ul class="fest">
+                    <li><a href="#">Выставки в Москве</a></li>
+                    <li><a href="#">Выставки в Петербурге</a></li>
+                    <li><a href="#">Выставки в Турции</a></li>
                 </ul>
+                
             </div>
             <div class="col-lg-2 col-xl-2 col-xxl-2">
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                <ul class="fest">
+                    <li><a href="#">Выставки по городам</a></li>
+                    <li><a href="#">Выставки по странам</a></li>
+                    <li><a href="#">Выставки по тематикам</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-xl-2 col-xxl-2">
                 <div class="imgs">
-                    <img src="./img/youtube.svg" alt="#">
-                    <img src="./img/vk.svg" alt="#">
-                    <img src="./img/telegram.svg" alt="#">
+                    <a href="#"><img src="./img/youtube.svg" alt="#"></a>
+                    <a href="#"><img src="./img/vk.svg" alt="#"></a>
+                    <a href="#"><img src="./img/tg.svg" alt="#"></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-xl-4 col-xxl-4">
-                <p class="header_p reg"><img src="#" alt="#">Регистрация</p>
-                <p class="header_p add_event"><img src="#" alt="#">добавить событие</p>
-                <p class="header_p sing_in"><img src="#" alt="#">Вход</p>
+            <div class="col-lg-4 col-xl-4 col-xxl-4" style="display: flex; position: relative;">
+                <p class="header_p add_event"><img src="./img/add_event.svg" alt="#">добавить событие</p>                
+                <p class="header_p reg"><img src="./img/person.svg" alt="#">Регистрация</p>
+                <p class="header_p sing_in"><img src="./img/sing_in.svg" alt="#">Вход</p>
             </div>
         </header>
         <main class="row">
             <div class="col-lg-2 col-xl-2 col-xxl-2">
                 <section id="left_bar">
                     <nav>
-                        <a href="#" class="ht">События<img src="#" alt="#"></a>
+                        <a href="#" class="ht">События<img src="./img/down_ht.svg" alt="#"></a>
                         <a href="#" class="down_ht">переносы/отмены</a>
-                        <a href="#" class="ht">места</a>
-                        <a href="#" class="ht">участники</a>
+                        <a href="#" class="ht">места<br>участники</a>
                         <a href="#" class="down_ht">о нас</a>
                         <a href="#" class="down_ht">партнеры</a>
                         <a href="#" class="down_ht">реклама</a>
                         <a href="#" class="down_ht">контакты</a>
                         <a href="#" class="down_ht">подписаться</a>
-                        <button><img src="#" alt="#">получать анонсЫ</button>
+                        <button><img src="./img/mail.svg" alt="#">получать анонсЫ</button>
                     </nav>                    
                 </section>
 
             </div>
             <div class="col-lg-10 col-xl-10 col-xxl-10">
                 <section id="search_events">
-                    <h1>поиск событий</h1>
                     <form action="#">
+                        <h1>поиск событий</h1>                        
                         <input type="text" name="search" id="search" placeholder="Я ищу:   Тематика, слово или название">
                         <input type="text" name="area" id="area" placeholder="Где:">    
-                        <button><img src="#" alt="#">найти</button>        
+                        <button><img src="./img/search.svg" alt="#">найти</button>        
                         <div class="filters">
-                            <p>Тематика:</p>
-                            <p>Место:</p>
-                            <p>Период:</p>
+                            <p>Тематика:<span>Не важно</span></p>
+                            <p>Место:<span>Не важно</span></p>
+                            <p>Период:<span>Не важно</span></p>
                         </div>            
                     </form>
                 </section>
@@ -88,7 +88,7 @@
                     <div class="left">
                         <h2>Почему выбирают Expomap</h2>
                         <div class="numbers">
-                            <div class="first">
+                            <div class="first active">
                                 <div>01</div>
                                 <hr>
                                 <p>Самый заметный ресурс<br>в своей нише в РФ и СНГ</p>
@@ -125,7 +125,7 @@
                         </div>
                         <div class="item">
                             <h5>16</h5>
-                            <p>лет<br>на event рынке</p>
+                            <p>лет на event<br>рынке</p>
                         </div>
                         <div class="item">
                             <h5>198</h5>
@@ -141,7 +141,7 @@
                     <div class="left">
                         <div class="img"></div>
                         <h4>Предпринимателям и представителям бизнеса</h4>
-                        <p>Более 140 000 бизнес-мероприятий, из которых вы выберете<br>нужные, чтобы прокачать себя и команду в определенной сфере,<br>найти клиентов и партнеров, привлечь новые вложения в бизнес,<br>быть в тренде и понимать конкурентное окружение,<br>вдохновляться и проявлять собственную экспертизу.</p>
+                        <p>Более 140 000 бизнес-мероприятий, из которых вы выберете нужные, чтобы прокачать себя и команду в определенной сфере, найти клиентов и партнеров, привлечь новые вложения в бизнес, быть в тренде и понимать конкурентное окружение, вдохновляться и проявлять собственную экспертизу.</p>
                         <div class="buttons">
                             <button>Календарь событий</button>
                             <button>Бизнес-канал в TG</button>
@@ -150,62 +150,64 @@
                     <div class="right">
                         <div class="img"></div>
                         <h4>Организаторам деловых событий</h4>
-                        <p>Экосистема сервисов от первых мест в выдаче поиска<br>до передовых digital-инструментов, которые продвигают ваше<br>событие, собирают целевую аудиторию на мероприятие, повышают<br>вовлеченность участников и предоставляют инструменты<br>для анализа результатов и планирования будущих мероприятий.</p>
+                        <p>Экосистема сервисов от первых мест в выдаче поиска до передовых digital-инструментов, которые продвигают ваше событие, собирают целевую аудиторию на мероприятие, повышают вовлеченность участников и предоставляют инструменты для анализа результатов и планирования будущих мероприятий.</p>
                         <div class="buttons">
                             <button>Рекламные инструменты</button>
                             <button>Продакшн от ExpoTV</button>
                         </div>
                     </div>
+                    <h2>Expomap предлагает</h2>
                 </section>
                 <section id="eco_system">
-                    <h3>Expomap</h3>
-                    <h2>О проекте</h2>
+                    <h3>Экосистема</h3>
+                    <h2>Экосистема Expomap</h2>
                     <div class="img"></div>
                 </section>
                 <section id="work_for">
-                    <h3>Expomap</h3>
-                    <h2>О проекте</h2>
+                    <h2>Expomap работает на...</h2>
                     <div class="items">
-                        <div class="item">
+                        <div class="item orange" style="top: 0; left: 0;">
                             <p>Увеличение узнаваемости вашего<br>мероприятия и бренда</p>
                         </div>
-                        <div class="item">
+                        <div class="item" style="top: 0; left: 50%; transform: translateX(-50%);">
                             <p>Расширение охвата аудитории<br>и количества точек контакта</p>
                         </div>
-                        <div class="item">
+                        <div class="item orange" style="top: 0; left: auto; right: 0;">
                             <p>Использование только эффективных<br>инструментов рекламы</p>
                         </div>
-                        <div class="item">
+                        <div class="item" style="top: 132px; left: 0; padding-top: 15px;">
                             <p>Получение качественного трафика<br>реальных посетителей, спикеров,<br>экспонентов</p>
                         </div>
-                        <div class="item">
+                        <div class="item orange" style="top: 132px; left: 50%; transform: translateX(-50%);">
                             <p>Укрепление сети партнеров<br>и инвесторов</p>
                         </div>
                     </div>
                 </section>
                 <section id="us_trust">
+                    <h3>Партнеры</h3>
+                    <h2>Expomap доверяют</h2>
                 </section>
                 <section id="builder_project">
                     <h3>Основатель проекта</h3>
-                    <img src="#" alt="#">
-                    <p><span>Евгения Саблина</span> (в прошлом — Евгения Мануковская)</p>
-                    <p>Основатель и владелец Expomap.ru. В event-индустрии работает уже 17 лет, помогая организаторам событий привлекать целевую аудиторию в b2b и выстраивать системный маркетинг. Является постоянным партнером отраслевых ассоциаций: РСВЯ, НКБ и НАОМ. Также Евгения продюсирует деловые программы для выставок и конференций, развивает личные бренды предпринимателей и экспертов через бизнес-мероприятия. Эксперт по коммуникациям, модератор, телеведущая, мастер спорта, бронзовый призер Чемпионата Европы по 10 танцам, путешественница (посетила 35 стран мира).</p>
-                    <p>Дата основания Expomap — 2008 год.</p>
+                    <img src="./img/builder.png" alt="#">
+                    <p style="margin-bottom: 15px;"><span>Евгения Саблина</span> (в прошлом — Евгения Мануковская)</p>
+                    <p style="margin-bottom: 20px;">Основатель и владелец Expomap.ru. В event-индустрии работает уже 17 лет, помогая организаторам событий привлекать целевую аудиторию в b2b и выстраивать системный маркетинг. Является постоянным партнером отраслевых ассоциаций: РСВЯ, НКБ и НАОМ. Также Евгения продюсирует деловые программы для выставок и конференций, развивает личные бренды предпринимателей и экспертов через бизнес-мероприятия. Эксперт по коммуникациям, модератор, телеведущая, мастер спорта, бронзовый призер Чемпионата Европы по 10 танцам, путешественница (посетила 35 стран мира).</p>
+                    <p style="margin-bottom: 25px;">Дата основания Expomap — 2008 год.</p>
                     <button>Связаться с нами</button>
                 </section>
             </div>
         </main>
         <footer class="row">
-            <div class="col-xxl-2 col-xl-2 col-lg-2">
+            <div class="col-xxl-2 col-xl-2 col-lg-2" id="left">
                 <p>© 2008 — 2024 Expomap.ru</p>
                 <div class="imgs">
                     <img src="./img/youtube.svg" alt="#">
                     <img src="./img/vk.svg" alt="#">
-                    <img src="./img/telegram.svg" alt="#">
+                    <img src="./img/tg.svg" alt="#">
                 </div>
             </div>
-            <div class="col-xxl-5 col-xl-5 col-lg-5">
-                <a href="#" class="ht" id="events">События<img src="#" alt="#"></a>
+            <div class="col-xxl-5 col-xl-5 col-lg-5" id="center">
+                <a href="#" class="ht" id="events">События<img src="./img/down_ht.svg" alt="#"></a>
                 <a href="#" class="ht">места</a>
                 <a href="#" class="ht">участники</a>
                 <div class="down_ht">
@@ -216,13 +218,15 @@
                     <a href="#">подписаться</a>
                 </div>
             </div>
-            <div class="col-xxl-3 col-xl-3 col-lg-3 offset-xxl-2 offset-xl-2 offset-lg-2">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 offset-xxl-2 offset-xl-2 offset-lg-2" id="right">
                 <a href="#">Пользовательское соглашение</a>
             </div>
-            <button id="idea"><img src="#" alt="#"></button>
         </footer>        
     </div>
-
+    <div class="left_bg"></div>
+    <div class="right_bg"></div>
+    <div class="footer_shadow"></div>
+    <button id="idea"><img src="./img/idea.svg" alt="#"></button>    
     <script src="./js/script.js"></script>
 </body>
 </html>
